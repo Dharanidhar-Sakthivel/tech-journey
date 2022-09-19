@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive hostel website design</title>
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <!-- font awesome cdn link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!--Custom css file link-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header section-->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>Sri Vaari</span>Hostel</a>
+    
+      <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Accommodation">Accommodation</a>
+        <a href="#Packages">Packages</a>
+        <a href="#Services">Services</a>
+        <a href="#Review">Review</a>
+        <a href="#Contact">Contact Us</a>
+        <a href="#My Account">My Account</a>
+      </nav>
+      
+      <div class="icons">
+          <i class="fas fa-search" id="search-btn"></i>
+          
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here....">
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!--home section-->
+
+    <section class="Home" id="Home">
+      <div class="content">
+        <h3>Love Where You Live</h3>
+        <p>We Provide stylish homes that puts you at the heart of the action.</p>
+        <a href="#" class="btn">discover more</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="./images/photo-1527891751199-7225231a68dd.webp"></span>
+        <span class="vid-btn" data-src="./images/castlemill-student-accommodation-oxford-HDYGX9.jpg"></span>
+        <span class="vid-btn" data-src="./images/elvet-studios-jill-tate-03-w960h590.jpg"></span>
+        <span class="vid-btn" data-src="./images/fullhd.jpg"></span>
+        <span class="vid-btn" data-src="./images/photo-1530334580314-1e7a340426a0.webp"></span>
+      </div>
+      <div class="video-container">
+        <img src="./images/photo-1527891751199-7225231a68dd.webp" id="slider" loop autoplay muted>
+      </div>
+    </section>
+
+    <!--Accommodation section-->
+
+    <section class="Accommodation" id="Accommodation">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="img">
+              <img src="./images/people-using-online-appointment-booking-app_74855-5556.webp" alt="">
+            </div>
+
+            <form action="">
+              <div class="inputBox">
+                <h3>university</h3>
+                <input type="text" placeholder="name of the university">
+              </div>
+
+              <div class="inputBox">
+                <h3>accommodation name</h3>
+                <input type="text" placeholder="name of hostel building">
+              </div>
+
+              <div class="inputBox">
+                <h3>duration</h3>
+                <input type="number" placeholder="in months">
+              </div>
+
+              <div class="inputBox">
+                <h3>arrival</h3>
+                <input type="date">
+              </div> 
+              <input type="submit" class="btn" value="book now">            
+            </form>
+        </div>
+    </section>
+
+    <!--package Section-->
+
+    <section class="Packages" id="Packages">
+        <h1 class="heading">
+            <span>P</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+          <div class="box">
+            <img src="./images/taylor-court-room-hero.x0f69c033.jpg" alt="">
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Gryffindor</h3>
+              <p>Gryffindor is a fantastic option for any student wishing to reside in Coimbatore's most student friendly neighbourhood.</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="price">₹10000.00/pm</div>
+              <a href="#" class="btn">book now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/20-student-accommodation-canalside-main-gallery-classic-studio.jpg" alt="">
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Hufflepuff</h3>
+              <p>Hufflepuff lies in the heart of historic city of coimbatore and is situated by the waterside.</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="price">₹12000.00/pm</div>
+              <a href="#" class="btn">book now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/7968796_19061118580075712362.jpg" alt="">
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Slytherin</h3>
+              <p>Slytherin is the perfect location for students choosing to study in coimbatore, as it is only 10 minutes away from the city centre.</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="price">₹14000.00/pm</div>
+              <a href="#" class="btn">book now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/46070066675_9204333f54_o.jpg" alt="">
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Stark</h3>
+              <p>Stark is a fantastic option for any student wishing to reside in Coimbatore's most student friendly neighbourhood</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="price">₹13000.00/pm</div>
+              <a href="#" class="btn">book now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/YBJT9AMP81H4D6KLVB7M.jpg" alt="">
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Revenclaw</h3>
+              <p>Revenclaw is stunning, modern and stylish property situated in the heart of the city centre, perfectly located for anyone studying in Coimbatore.</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="price">₹15000.00/pm</div>
+              <a href="#" class="btn">book now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./images/7313556.jpg" alt="">
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Lannister</h3>
+              <p>Lannister is comfortable, convenient, and completely hassle-free, whilst excitement is always on your doorstep at nearby Gandhipuram.</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <div class="price">₹12000.00/pm</div>
+              <a href="#" class="btn">book now</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Services section-->
+
+    <section class="Services" id="Services">
+      <h1 class="heading">
+            <span>S</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+          <div class="box">
+            <i class="fas fa-hotel"></i>
+              <h3>Affordable Accommodations</h3>
+              <p>Having provided a home for students for almost 10 years, we know what students want and need.</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-bed"></i>
+              <h3>Choice Of Rooms</h3>
+              <p>From studios to shared apartments, we've got the perfect rooms for you.</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-money-bill-wave-alt"></i>
+              <h3>Bills Included</h3>
+              <p>Electricity, Heating, Unlimited Wi-Fi, water.</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-solid fa-users"></i>
+              <h3>Sociable Spaces</h3>
+              <p>Shared areas are designed to help students to play and relax among friends.</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-parking"></i>
+              <h3>Facilities</h3>
+              <p>Car Parking on site, Vending machine, Bike Storage, Laundry</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-key"></i>
+              <h3>Security and maintenance</h3>
+              <p>CCTV monitoring, front office guidance for safety and maintenace issues, protected with fire alarm.</p>
+          </div>
+        </div>
+    </section>
+
+    <!--Review Section-->
+
+    <section class="Review" id="Review">
+      <h1 class="heading">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+      </h1>
+
+      <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./images/customer_reviews_1.png" alt="">
+              <h3>Gunasownthari</h3>
+              <p>A place feels like home. the stay was indeed memorable. the rooms are nice but the architecture is old (although its great if you are looking for old heritge).
+                 bus service is at the doorstep. its in the midway of city center.</p>
+                 <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                 </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./images/customer_reviews_1.png" alt="">
+              <h3>Dhamodharan</h3>
+              <p>the staff are lovely always very cheery and helpful, especially the 24hrs reception - much better than the other accommodations around.
+                 the location is very convenient as its is basically on campus and in city centre.</p>
+                 <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                 </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./images/customer_reviews_1.png" alt="">
+              <h3>Yugendar</h3>
+              <p>I will totally recommend you to choose Lannister. I love its location. Although not in the most prosperous place, it is close to supermarkets and shops. It is in a beautiful and quiet environment, 
+                I enjoyed my time walking on the canal and playing with the geese. The room is perfect and cost-effective. The study room and fitness room mean a lot to me too, especially during the lockdown.</p>
+                 <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                 </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./images/customer_reviews_1.png" alt="">
+              <h3>Yuvaraj</h3>
+              <p>Definitely a fabulous place to stay! The studios here are spacious and are well-equipped with microwave, oven and smart TVs. 
+                The staff team is really friendly and helpful and they get things sort out efficiently :)</p>
+                 <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                 </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+
+    <section class="Contact" id="Contact">
+      <h1 class="heading">
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+            <span>U</span>
+            <span>s</span>
+      </h1>
+        <div class="row">
+            <div class="img">
+              <img src="./images/Contact us-cuate.png" alt="">
+            </div>
+
+          <form onsubmit="sendEmail();reset(); return false;">
+            <div class="inputBox">
+              <input type="text" id="First name" placeholder="Your First name" required>
+              <input type="text" id="Last name" placeholder="Your last name" required>
+            </div>
+            <div class="inputBox">
+              <input type="email" id="email" placeholder="Email id" required>
+              <input type="text" id="number" placeholder="Contact No." required>
+            </div>
+            <textarea id="message" placeholder="Enter message" name="" cols="30" rows="10"></textarea> 
+            <input type="submit" class="btn" value="send message">
+          </form>
+        </div>
+
+    </section>
+
+    <!--Footer Section-->
+
+    <div class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <h4><b>Not Just a Landlord</b></h4>
+          <p>Having provided a home for students for almost 10 years, we know what students want and need. 
+            We also know that every student’s different. We’ve used this insight to create places to 
+            live where you can feel at home, no matter where you’ve come from or where you want to go. 
+            Places where you can make the leap to university and get the most out of your time there.</p>
+            <h4>Home For Success</h4>
+            <p>We know that university isn’t always plain sailing. But we also passionately believe that with 
+              the right support and surroundings, students can successfully navigate themselves through the 
+              lows as well as the highs of this exciting, sometimes challenging, time.</p>
+        </div>
+        <div class="box">
+          <h3>branch locations</h3>
+          <a href="#">Coimbatore(Main Branch)</a>
+          <a href="#">Erode</a>
+          <a href="#">Gobichettipalayam</a>
+          <a href="#">Sathyamangalam</a>
+          <a href="#">Karumathampatti</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">Home</a>
+          <a href="#">Accommodation</a>
+          <a href="#">Packages</a>
+          <a href="#">Services</a>
+          <a href="#">Review</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+      <h1 class="credit">created by <span>Aston Student</span> | all rights reserved!!</h1>
+    </div>
+
+
+
+
+
+
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!--custom js file link-->
+  <script src="main.js"></script>
+</body>
+</html>
